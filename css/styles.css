@@ -1,7 +1,57 @@
+* {
+    font-family:Roboto;
+}
+
 body {
     min-height:100vh;
+    overflow:0;
     display:flex;
     flex-direction: column;
     margin:0;
+    
 }
 
+.header, .footer {
+    display:flex;
+
+}
+
+.header ul {
+    display:flex;
+}
+
+.header ul li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.body {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin:auto;
+    align-items:stretch;
+    flex:auto;
+}
+
+.header, .body-1 {
+    background-color:darkblue;
+}
+
+.body-1 {
+    
+
+}
+
+.body-2 {
+
+}
+
+.body-3 {
+    background-color:gray;
+}
+
+.footer {
+    background-color: darkblue;
+}
