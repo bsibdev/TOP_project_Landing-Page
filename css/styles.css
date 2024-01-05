@@ -93,6 +93,7 @@ body {
 
 .hook-img img{
     width:400px;
+    border-radius:11%;
 }
 
 .hook h2 {
