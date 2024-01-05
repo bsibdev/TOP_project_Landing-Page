@@ -31,7 +31,8 @@ body {
 .header h1 {
     padding:0;
     align-self:center;
-    color:white;
+    color:#F9FAF8;
+    font-size: 24px;
 }
 
 .header ul {
@@ -50,7 +51,8 @@ body {
 .header ul li a {
     text-decoration:none;
     align-self:center;
-    color:white;
+    color:#e5e7eb;
+    font-size:18px;
 }
 
 .body {
@@ -60,8 +62,8 @@ body {
     flex:auto;
 }
 
-.header, .body-1 {
-    background-color:rgb(24, 24, 56);
+.header, .body-1, .footer {
+    background-color:#1F2937;
 }
 
 .body-1, .body-2, .body-3, .body-4 {
@@ -97,19 +99,20 @@ body {
 }
 
 .hook h2 {
-    color:white;
+    color:#F9FAF8;
     margin:0;
     font-size:48px;
+    font-weight:bolder;
 }
 
 .hook p {
-    color:white;
+    color:#e5e7eb;
     margin:0;
-    font-size:16px;
+    font-size:18px;
 }
 
 .hook button {
-    background-color:rgb(23, 151, 255);
+    background-color:#3882F6;
     border-radius:5px;
     padding: 6px 24px;
     border-color:white;
@@ -138,11 +141,11 @@ body {
     margin:0;
     padding:0;
     text-align:center;
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
 }
 
-.body-2 hook p {
-    font-size:200px;
-}
 
 .info-set {
     display:flex;
@@ -174,7 +177,7 @@ border-color:blue;
 
 
 .body-3 {
-    background-color:rgb(228, 228, 228);
+    background-color:#e5e7eb;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -187,11 +190,11 @@ border-color:blue;
 .body-3 p {
     text-align:left;
     width:800px;
-    font-size:40px;
+    font-size:36px;
     font-style:italic;
-    font-weight:0;
     margin:0;
     padding:0;
+    color:#1F2937;
 }
 
 .body-3 h2 {
@@ -208,7 +211,7 @@ border-color:blue;
 .banner {
     display:flex;
     justify-content:space-between;
-    background-color:rgb(23, 151, 255);
+    background-color:#3882F6;
     border-radius:8px;
     gap:200px;
     padding:30px 25px;
@@ -255,5 +258,10 @@ border-color:blue;
 }
 
 .footer {
-    background-color: darkblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    color:white;
+    
 }
